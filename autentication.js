@@ -1,3 +1,3 @@
-console.log("Hellos");
-console.log("helloss");
-console.log("helos 3");
+const testeo2 = () => {
+  console.log("testeo2");
+};
