@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./alpha.js" type="module"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="body__header">
+        <button id="back-arrow" class="direction__arrow">⬅️</button>
+        <h1>Calendario</h1>
+        <button id="next-arrow" class="direction__arrow">➡️</button>
+    </div>
+    <main></main>
+    <template id="cellDay">
+        <div id='cell__container' class="cell__container">
+            <div class="cellDay__header">
+                <div class="cellDay__dots">🔴⚪️🔵</div>
+                <h6 id='cell__number' class="cell__number"></h6>
+            </div>
+            <div class="cellDay__events"></div>
+            <div class="cellDay__footer">
+                <button>➕</button>
+            </div>
+        </div>
+
+
+    </template>
+</body>
+
+</html>

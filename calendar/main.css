@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: #251D3A;
+    color: white;
+}
+main{
+  
+height: 90%;
+width: 90%;
+}
+
+.days__container{
+    display: grid; 
+    height: 90%;
+    width: 100%;
+    grid-template-columns:repeat(7, 1fr); 
+    grid-template-rows: 3rem repeat(6, 1fr); 
+    gap: 10px 10px; 
+}
+.calendar{
+    background: #112B3C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #2A2550;
+    
+}
+
+.body__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+
+}
+.direction__arrow{
+    /* width: 5%; */
+    height: fit-content;
+    font-size: 29px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: #251D3A;
+}
+
+
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.currentDay{
+    background-color: #c22222;
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+.first__day{
+    grid-column-start: 5;
+}
+
+.cell__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/619/741/122/star-wars-bb-8-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+.cellDay__header{
+    display:flex;
+    height: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.cellDay__footer{
+    display:flex;
+
+    justify-content: flex-end;
+}
+.weekDay{
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}
