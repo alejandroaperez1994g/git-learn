@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='index-ts.js' defer></script>
+    <script src='autentication.js' defer></script>
+    <link rel="stylesheet" href="./main.css">
     <title>Document</title>
 </head>
 
 <body>
-    <input type="number" id='num1' placeholder="Number 1" />
-    <input type="number" id='num2' placeholder="Number 2" />
-    <button>Add Number!!</button>
-    <div>
-        <h1>branch master</h1>
-        <h1>branch beta</h1>
-        <h2>branch master</h2>
-        <h2>branch master</h2>
-    </div>
-    <div>
-        <h2>branch beta</h2>
-    </div>
+    <section class="profile-form hidden">
+        <h2>Profile</h2>
+        <form id="profile-form">
+            <article class="input_text">
+                <input type="text" id="username" name="username" required />
+                <label for="username">Username</label>
+            </article>
+            <button id="btn-resetProfile" class="btn-reset" type="reset">Clear form</button>
+            <button class="btn-next next_button_form" type="submit" required>LOGIN</button>
+        </form>
+    </section>
+
+    <h2>Names of JSON</h2>
+    <ul class="list">
+
+    </ul>
 </body>
 
 </html>

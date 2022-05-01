@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Celestial",
+        "age": 28,
+        "skills": ["Astronomy", "Cosmology", "Alchemy"],
+        "location": "The Moon",
+        "status": "single",
+        "species": "Human",
+        "hobbies":[
+            "Astronomy",
+            "Cosmology",
+            "Alchemy"
+        ],
+        "occupation": "Astronaut",
+        "friends":[
+            "Jupiter",
+            "Saturn",
+            "Uranus",
+            "Neptune"
+        ]
+    },
+    {
+        "name": "Jupiter",
+        "age": 28,
+        "skills": ["Astronomy", "Cosmology", "Alchemy"],
+        "location": "The Moon",
+        "status": "single",
+        "species": "Human",
+        "hobbies":[
+            "Astronomy",
+            "Cosmology",
+            "Alchemy"
+        ],
+        "occupation": "Astronaut",
+        "friends":[
+            "Celestial",
+            "Saturn",
+            "Uranus",
+            "Neptune"
+        ]
+    },
+    {
+        "name": "Saturn",
+        "age": 28,
+        "skills": ["Astronomy", "Cosmology", "Alchemy"],
+        "location": "The Moon",
+        "status": "single",
+        "species": "Human",
+        "hobbies":[
+            "Astronomy",
+            "Cosmology",
+            "Alchemy"
+        ],
+        "occupation": "Astronaut",
+        "friends":[
+            "Celestial",
+            "Jupiter",
+            "Uranus",
+            "Neptune"
+        ]
+    },
+    {
+        "name": "Uranus",
+        "age": 28,
+        "skills": ["Astronomy", "Cosmology", "Alchemy"],
+        "location": "The Moon",
+        "status": "single",
+        "species": "Human",
+        "hobbies":[
+            "Astronomy",
+            "Cosmology",
+            "Alchemy"
+        ],
+        "occupation": "Astronaut",
+        "friends":[
+            "Celestial",
+            "Jupiter",
+            "Saturn",
+            "Neptune"
+        ]
+    },
+    {
+        "name": "Neptune",
+        "age": 28,
+        "skills": ["Astronomy", "Cosmology", "Alchemy"],
+        "location": "The Moon",
+        "status": "single",
+        "species": "Human",
+        "hobbies":[
+            "Astronomy",
+            "Cosmology"
+        ]
+    }
+]
